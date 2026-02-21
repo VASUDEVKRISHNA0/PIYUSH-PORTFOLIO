@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Developer — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ============================================
+         LAYER 1: NORMAL THEME (WHITE TEXT)
+         ============================================ -->
+    <div class="site-layer site-layer--normal" id="normalLayer">
+
+        <!-- Film Grain -->
+        <div class="grain"></div>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="hero">
+            <div class="hero-glow"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="line" data-delay="0">Creative</span>
+                    <span class="line" data-delay="1">Developer</span>
+                </h1>
+                <p class="hero-subtitle">Crafting Digital Experiences</p>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- TRANSITION SECTION -->
+        <section class="transition-section">
+            <h2 class="transition-title" data-reveal>Selected Work</h2>
+        </section>
+
+        <!-- WORK SECTION -->
+        <section class="work">
+            <div class="work-container">
+                <article class="project" data-reveal data-parallax="0.04">
+                    <div class="project-image">
+                        <div class="project-image-inner"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">01</span>
+                        <h3 class="project-title">Digital Experience Platform</h3>
+                        <p class="project-desc">A comprehensive web platform designed to deliver immersive brand experiences through thoughtful interaction design.</p>
+                        <span class="project-tags">Web Development — UI Design — Strategy</span>
+                    </div>
+                </article>
+
+                <article class="project" data-reveal data-parallax="0.05">
+                    <div class="project-image">
+                        <div class="project-image-inner"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">02</span>
+                        <h3 class="project-title">E-Commerce Reimagined</h3>
+                        <p class="project-desc">Complete redesign of a luxury retail experience, focusing on seamless checkout flows and elevated visual storytelling.</p>
+                        <span class="project-tags">Full Stack — Branding — E-Commerce</span>
+                    </div>
+                </article>
+
+                <article class="project" data-reveal data-parallax="0.03">
+                    <div class="project-image">
+                        <div class="project-image-inner"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">03</span>
+                        <h3 class="project-title">Mobile App Suite</h3>
+                        <p class="project-desc">Native applications for iOS and Android, built with performance and accessibility at the core of every decision.</p>
+                        <span class="project-tags">iOS — Android — React Native</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about">
+            <div class="about-container">
+                <div class="about-content" data-reveal>
+                    <h2 class="about-title">About</h2>
+                    <p class="about-lead">I craft digital experiences that feel intentional, refined, and memorable.</p>
+                    <p class="about-text">With over eight years in web development and digital design, I focus on creating work that balances aesthetic precision with technical excellence. Every project is an opportunity to push boundaries while maintaining clarity and purpose.</p>
+                    <p class="about-text">Currently based in Los Angeles, available for select projects worldwide.</p>
+                </div>
+                <div class="about-image" data-reveal data-parallax="0.06">
+                    <div class="about-image-inner"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services">
+            <div class="services-container">
+                <h2 class="services-title" data-reveal>Services</h2>
+                <div class="services-list">
+                    <div class="service" data-reveal>
+                        <span class="service-number">01</span>
+                        <div class="service-content">
+                            <h3 class="service-name">Web Development</h3>
+                            <p class="service-desc">Custom websites and applications built with modern technologies, optimized for performance.</p>
+                        </div>
+                    </div>
+                    <div class="service" data-reveal>
+                        <span class="service-number">02</span>
+                        <div class="service-content">
+                            <h3 class="service-name">UI/UX Design</h3>
+                            <p class="service-desc">User-centered design that creates intuitive experiences across all platforms.</p>
+                        </div>
+                    </div>
+                    <div class="service" data-reveal>
+                        <span class="service-number">03</span>
+                        <div class="service-content">
+                            <h3 class="service-name">Creative Direction</h3>
+                            <p class="service-desc">Strategic leadership that transforms brand visions into cohesive digital narratives.</p>
+                        </div>
+                    </div>
+                    <div class="service" data-reveal>
+                        <span class="service-number">04</span>
+                        <div class="service-content">
+                            <h3 class="service-name">Motion Design</h3>
+                            <p class="service-desc">Purposeful animations that bring interfaces to life with polish and intention.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact">
+            <div class="contact-glow"></div>
+            <div class="contact-container">
+                <div class="contact-content" data-reveal>
+                    <h2 class="contact-title">Let's Work<br>Together</h2>
+                    <p class="contact-subtitle">Have a project in mind? Let's create something exceptional.</p>
+                </div>
+                <form class="contact-form" id="contactForm" data-reveal>
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-row">
+                        <textarea name="message" placeholder="Tell me about your project" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-text">© 2026 Creative Developer</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Twitter</a>
+                    <a href="#" class="footer-link">LinkedIn</a>
+                    <a href="#" class="footer-link">GitHub</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ============================================
+         LAYER 2: MAGNIFIED THEME (ORANGE/RED TEXT)
+         ============================================ -->
+    <div class="site-layer site-layer--magnified" id="magnifiedLayer">
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-glow"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="line">Creative</span>
+                    <span class="line">Developer</span>
+                </h1>
+                <p class="hero-subtitle">Crafting Digital Experiences</p>
+            </div>
+        </section>
+
+        <!-- TRANSITION SECTION -->
+        <section class="transition-section">
+            <h2 class="transition-title">Selected Work</h2>
+        </section>
+
+        <!-- WORK SECTION -->
+        <section class="work">
+            <div class="work-container">
+                <article class="project">
+                    <div class="project-image">
+                        <div class="project-image-inner"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">01</span>
+                        <h3 class="project-title">Digital Experience Platform</h3>
+                        <p class="project-desc">A comprehensive web platform designed to deliver immersive brand experiences through thoughtful interaction design.</p>
+                        <span class="project-tags">Web Development — UI Design — Strategy</span>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-image">
+                        <div class="project-image-inner"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">02</span>
+                        <h3 class="project-title">E-Commerce Reimagined</h3>
+                        <p class="project-desc">Complete redesign of a luxury retail experience, focusing on seamless checkout flows and elevated visual storytelling.</p>
+                        <span class="project-tags">Full Stack — Branding — E-Commerce</span>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-image">
+                        <div class="project-image-inner"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">03</span>
+                        <h3 class="project-title">Mobile App Suite</h3>
+                        <p class="project-desc">Native applications for iOS and Android, built with performance and accessibility at the core of every decision.</p>
+                        <span class="project-tags">iOS — Android — React Native</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2 class="about-title">About</h2>
+                    <p class="about-lead">I craft digital experiences that feel intentional, refined, and memorable.</p>
+                    <p class="about-text">With over eight years in web development and digital design, I focus on creating work that balances aesthetic precision with technical excellence. Every project is an opportunity to push boundaries while maintaining clarity and purpose.</p>
+                    <p class="about-text">Currently based in Los Angeles, available for select projects worldwide.</p>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-inner"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services">
+            <div class="services-container">
+                <h2 class="services-title">Services</h2>
+                <div class="services-list">
+                    <div class="service">
+                        <span class="service-number">01</span>
+                        <div class="service-content">
+                            <h3 class="service-name">Web Development</h3>
+                            <p class="service-desc">Custom websites and applications built with modern technologies, optimized for performance.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <span class="service-number">02</span>
+                        <div class="service-content">
+                            <h3 class="service-name">UI/UX Design</h3>
+                            <p class="service-desc">User-centered design that creates intuitive experiences across all platforms.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <span class="service-number">03</span>
+                        <div class="service-content">
+                            <h3 class="service-name">Creative Direction</h3>
+                            <p class="service-desc">Strategic leadership that transforms brand visions into cohesive digital narratives.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <span class="service-number">04</span>
+                        <div class="service-content">
+                            <h3 class="service-name">Motion Design</h3>
+                            <p class="service-desc">Purposeful animations that bring interfaces to life with polish and intention.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact">
+            <div class="contact-glow"></div>
+            <div class="contact-container">
+                <div class="contact-content">
+                    <h2 class="contact-title">Let's Work<br>Together</h2>
+                    <p class="contact-subtitle">Have a project in mind? Let's create something exceptional.</p>
+                </div>
+                <div class="contact-form">
+                    <div class="form-row">
+                        <div class="form-placeholder">Name</div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-placeholder">Email</div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-placeholder">Tell me about your project</div>
+                    </div>
+                    <div class="submit-btn">
+                        <span>Send Message</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-text">© 2026 Creative Developer</p>
+                <div class="footer-links">
+                    <span class="footer-link">Twitter</span>
+                    <span class="footer-link">LinkedIn</span>
+                    <span class="footer-link">GitHub</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ============================================
+         MAGNIFIER GLASS LENS (VISUAL ONLY)
+         ============================================ -->
+    <div class="magnifier-lens" id="magnifierLens"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
